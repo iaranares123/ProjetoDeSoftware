@@ -9,5 +9,6 @@ public class Main {
         n.setApelido("Pain");
         n.setRenegado(true);
         n.getKekkeigenkai().add(r);
+        System.out.println(n.getNome() + " " + n.getApelido() + " possui o Kekkei Genkai: " + n.getKekkeigenkai().get(0).getNome());
     }
 }
